@@ -3,7 +3,7 @@
 Small command-line tool to help convert your music library from lossless formats (Wave/WAV, FLAC, Ogg/FLAC & AIFF) to [Opus](https://en.wikipedia.org/wiki/Opus_(audio_format)).
 
 [![Build Status](https://travis-ci.com/markus-wa/convert-to-opus.svg?branch=master)](https://travis-ci.com/markus-wa/convert-to-opus)
-[![Python Version](https://img.shields.io/badge/python-3.5+-blue.svg)](https://www.python.org/download/releases/3.5.0/)
+[![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/download/releases/3.6.0/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md)
 
 ## Purpose
@@ -18,7 +18,7 @@ To do this I suggest to do the conversion to a output directory on your PC and s
 ## Requirements
 
 - **[`opusenc`](http://opus-codec.org/downloads/) must be installed and in your `PATH` environment variable.**
-- [Python](https://www.python.org/downloads/) 3.5 or higher
+- [Python](https://www.python.org/downloads/) 3.6 or higher
 
 
 ## Usage
