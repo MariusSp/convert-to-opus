@@ -20,7 +20,8 @@ class MicroMock(object):
 class TestToOpus(unittest.TestCase):
 
     def test_main(self):
-        shutil.rmtree(target_dir)
+        if os.path.exists(target_dir):
+            shutil.rmtree(target_dir)
 
         to_opus.main(MicroMock(
             source=source_dir,

@@ -28,7 +28,7 @@ To do this I suggest to do the conversion to a output directory on your PC and s
 Recursively copies **all** files in the source directory to the target directory.
 Files ending with `.flac`, `.wav`, `.aiff` and `.ogg` are converted and renamed to `.opus`.
 
-    python to_opus.py /path/to/source-dir /path/to/output-dir
+    python to_opus.py --source /path/to/source-dir --target /path/to/output-dir
 
 
 ### `base_diff.py`
