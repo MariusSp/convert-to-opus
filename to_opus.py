@@ -16,7 +16,7 @@ if which('opusenc') is None:
 
 
 def opusenc(src: str, dest: str) -> None:
-    if Popen(['opusenc', src, dest] + opusenc_args).wait() is 0:
+    if Popen(['opusenc', '--bitrate', '128', src, dest] + opusenc_args).wait() is 0:
         logging.info('converted "%s" -> "%s"', src, dest)
     else:
         # Fallback to copy
